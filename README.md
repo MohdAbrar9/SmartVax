@@ -109,45 +109,39 @@ The prediction results are categorised into Low, Medium and High risk levels to 
 - Git
 - Visual Studio Code
 
-**1. Clone the repository**
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
-**2. Navigate to the project folder**
+**1. Navigate to the project folder**
 
 ```bash
 cd smart-vax
 ```
 
-**3. Create a virtual environment**
+**2. Create a virtual environment**
 
 ```bash
 python -m venv venv
 ```
 
-**4. Activate the virtual environment (Windows PowerShell)**
+**3. Activate the virtual environment (Windows PowerShell)**
 
 ```powershell
 .\venv\Scripts\Activate.ps1
 ```
 
-**5. Install dependencies**
+**4. Install dependencies**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-**6. Configure environment variables**
+**5. Configure environment variables**
 
 Create a `.env` file using `.env.example` and enter your local MySQL credentials and required API configuration.
 
-**7. Set up the MySQL database**
+**6. Set up the MySQL database**
 
 Import the provided SQL scripts using MySQL Workbench or the MySQL command-line client.
 
-**8. Run the application**
+**7. Run the application**
 
 ```bash
 python app.py
